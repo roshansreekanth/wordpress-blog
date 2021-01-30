@@ -1,0 +1,172 @@
+/*
+Theme Name: My Theme
+Theme URI: https://wordpress.org/themes/mytheme/
+Author: Roshan Sreekanth
+Author URI: http://webdevcit.com/2020/Sem1/R00170592/blog-k15-mfr
+Description: This is a very simple demo theme.
+Tags: blog, one-column
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mytheme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article
+{
+    border:2px solid #dedede;
+    background-color: #f1f1f1; 
+    width: 50%;
+    border-radius: 5px; 
+    padding: 30px; 
+    margin: 10px auto; 
+}
+
+footer
+{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2
+{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+
+nav li 
+{
+    float: left; 
+}
+  
+nav li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.category
+{
+    margin-bottom: 1%;
+}
+
+.date
+{
+    float: right;
+    display: inline;
+}
+
+.author
+{
+    display: inline;
+}
+
+.error
+{
+    color: red;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery
+{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.photo
+{
+    display: inline;
+    margin-right: 2%;
+}
+
+.previous
+{
+    float:left;
+}
+
+.next
+{
+    display: inline;
+    float: right;
+}
+
+.search
+{
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+#john-smith-text
+{
+    font-family: 'Permanent Marker', cursive;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+#jane-doe-text
+{
+    font-family: 'Lobster', cursive;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sidebar-one
+{
+    width: 20%;
+    padding-left: 15px;
+    float: left;
+    font-style: italic;
+    height:auto;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+#sidebar-two
+{
+    width: 20%;
+    float: right;
+    font-style: italic;
+    height:auto;
+    overflow: hidden;
+    background-color: lightgray;
+}

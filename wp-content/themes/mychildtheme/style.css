@@ -1,0 +1,49 @@
+/*
+Theme Name: My Child Theme
+Theme URI: https://wordpress.org/themes/mychildtheme/
+Author: Roshan Sreekanth
+Author URI: http://webdevcit.com/2020/Sem1/R00170592/blog-k15-mfr
+Description: This is a child demo theme based of the wordpress twentynineteen theme.
+Tags: blog, one-column
+Version: 1.3
+Template: twentynineteen
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mychildtheme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+@import url(../twentynineteen/style.css);
+*/
+
+.author-details
+{
+    background:#0073AA;
+    color: white;
+    text-align: center;
+}
+
+.entry-date
+{
+    display: inline;
+    background: grey;
+    color: white;
+}
+
+h3
+{
+    display: inline;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px; 
+    padding: 30px; 
+    margin: 10px auto; 
+ 
+}
+
+#moreDetails
+{
+    display: none;
+}
